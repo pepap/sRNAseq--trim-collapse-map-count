@@ -1,6 +1,6 @@
 #!/bin/bash
 
-metamodule add samtools
+module add samtools
 
 exeCMD="STAR"
 REF="/path/to/GRCm38.fa"
@@ -44,7 +44,5 @@ ${exeCMD} --runMode alignReads \
 
 samtools index ${OUTBAM[$i]}.se.Aligned.sortedByCoord.out.bam
 
-metamodule add fastQC-0.11.5
-fastqc ${OUTBAM[$i]}.se.Unmapped.out.mate1
 gzip   ${OUTBAM[$i]}.se.Unmapped.out.mate1
 
