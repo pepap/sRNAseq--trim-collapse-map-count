@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # @pepap : cutAdapt version 2.5
-metamodule add py-cutadapt
-metamodule add fastx-0.0.14
+module add py-cutadapt
+module add fastx-0.0.14
 
 CPU=8
 STOR="/storage/brno12-cerit/home/pepap/brno1/Valeria.Buccheri/22.mESC--Dicer-loop-mutants--TraPR--20250516/FASTQ/2025_05_15_Buccheri_mESCs_loops_TraPR"
