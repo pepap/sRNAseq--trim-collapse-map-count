@@ -13,7 +13,7 @@ bash 02.map.bash
 ```
 
 ## <ins>Mature miRNA counting<ins>
-The final counting is performed by a home-mmade R-script :
+The final counting is performed by a home-made R-script :
 ```
 R --no-save < 03.counts.mirAnnot.mm10.R
 ```
